@@ -2,15 +2,15 @@ package com.msi.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
+import com.msi.model.Greeting;
 /**
- * Created by royce on 16/3/31.
+ * Created by Dennis on 16/6/10.
  */
 @RestController
 public class Hello {
-    @RequestMapping("/")
-    public String index(){
-        return "Hello World";
+    @RequestMapping("/hello")
+    public Greeting index(){
+        return new Greeting("World");
     }
 
 }

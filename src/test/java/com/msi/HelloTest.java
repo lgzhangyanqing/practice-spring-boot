@@ -19,7 +19,7 @@ import org.springframework.web.client.RestTemplate;
 import java.net.URL;
 
 /**
- * Created by royce on 16/3/31.
+ * Created by Dennis on 16/6/10.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = HelloApplication.class)

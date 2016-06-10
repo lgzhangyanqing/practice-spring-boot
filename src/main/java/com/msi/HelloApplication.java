@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 /**
- * Created by royce on 16/3/31.
+ * Created by Dennis on 16/6/10.
  */
 @SpringBootApplication
 public class HelloApplication {
